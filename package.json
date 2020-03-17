@@ -3,5 +3,14 @@
   "version": "1.0.0",
   "main": "index.js",
   "author": "vinay thallam <vinay.rgit@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "start" : "nodemon ./src/index.js"
+  },
+  "dependencies": {
+    "graphql-yoga": "^1.18.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
 }
