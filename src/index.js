@@ -15,11 +15,6 @@ const resolvers = {
     Query: {
         info: () => 'This is the API for HackerNews Clone 2',
         feed: () => links
-    },
-    Link: {
-        id: (parent) => parent.id,
-        url: (parent) => parent.url,
-        description: (parent) => parent.description,
     }
 }
 
