@@ -1,0 +1,7 @@
+{
+  "name": "hackernews-node",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "vinay thallam <vinay.rgit@gmail.com>",
+  "license": "MIT"
+}
