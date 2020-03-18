@@ -5,10 +5,11 @@
   "author": "vinay thallam <vinay.rgit@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start" : "nodemon ./src/index.js"
+    "start": "nodemon ./src/index.js"
   },
   "dependencies": {
-    "graphql-yoga": "^1.18.3"
+    "graphql-yoga": "^1.18.3",
+    "prisma-client-lib": "^1.34.10"
   },
   "devDependencies": {
     "nodemon": "^2.0.2"
