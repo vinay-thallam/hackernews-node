@@ -1,5 +1,5 @@
 type Query{
-    feed: [Link!]!
+    feed(filter: String): [Link!]!
 }
 type Mutation{
     post(url: String!, description: String!): Link!
